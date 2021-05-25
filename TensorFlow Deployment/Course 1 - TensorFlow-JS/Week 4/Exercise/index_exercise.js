@@ -73,13 +73,10 @@ function handleButton(elem){
 			spockSamples++;
 			document.getElementById("spocksamples").innerText = "Spock samples:" + spockSamples;
 			break;
-            
-        // Add a case for lizard samples.
-        // HINT: Look at the previous cases.
-            
-        // YOUR CODE HERE
-		
-            
+    case "4":
+      scissorsSamples++;
+      document.getElementById("lizardsamples").innerText = "Lizard samples:" + scissorsSamples;
+      break;
 	}
 	label = parseInt(elem.id);
 	const img = webcam.capture();
